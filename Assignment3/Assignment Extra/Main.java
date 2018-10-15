@@ -1,5 +1,6 @@
 public class Main {
-
+//score 1/2
+//you have a extra space in the end. 
     public static void main(String[] args) {
         String s = "     I     have    a    pencil     ";
         System.out.println(reverse(s));
