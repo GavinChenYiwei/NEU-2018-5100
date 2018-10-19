@@ -1,6 +1,6 @@
 import java.sql.SQLOutput;
 import java.util.ArrayList;
-
+//score 5/5
 public class Course {
     private String name;
     private int numberOfStudent;
