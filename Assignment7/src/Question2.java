@@ -1,4 +1,5 @@
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
@@ -12,7 +13,12 @@ public class Question2 {
                 System.out.println(line);
             }
             return;
-        } finally {
+        } catch (FileNotFoundException e){
+            e.printStackTrace();
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+        finally {
             if (input != null) {
                 input.close();
             }

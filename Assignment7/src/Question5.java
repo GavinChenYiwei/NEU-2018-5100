@@ -1,5 +1,5 @@
 public class Question5 {
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+    public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         // add your code here
         //assume n2>n1
         int n1 = nums1.length;

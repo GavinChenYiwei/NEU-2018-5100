@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class Question4 {
-    public List<Interval> merge(List<Interval> intervals) {
+    public static List<Interval> merge(List<Interval> intervals) {
         // add your code here
         List<Interval> answer = new LinkedList<>();
         if (intervals == null|| intervals.size() == 0)
